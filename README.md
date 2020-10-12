@@ -77,7 +77,7 @@ In this project, I will have to use PySpark to perform the ETL process to extrac
 * Percentage of non-Vine reviews that were 5 stars: 51.81%
 
 ## Summary
-I do not believe that there is any positivity bias for the reviews in the Vine program. This is supported by the fact that the percentage of non-vine 5-star ratings (51.81) is more than the percentage of vine 5-star ratings (31.92)
+I do not believe that there is any positivity bias for the reviews in the Vine program. On the contrary, the percentage of 5-star ratings by vine reviewers (31.91) is less than the percentage of 5-star ratings by non-vine reviewers (51.81). One of the reasons behind this could be that vine users are those Amazon users, who have been specially selected for their past honest review history. These reviewers tend to post honest (postive as well as negative) reviews.
 
 ### Additional analysis
 * We can run other stastical analysis, like the one-sample t-test to see if this difference can be contributed to chance.
