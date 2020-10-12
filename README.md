@@ -79,7 +79,7 @@ In this project, I will have to use PySpark to perform the ETL process to extrac
 ## Summary
 I do not believe that there is any positivity bias for the reviews in the Vine program. This is supported by the fact that the percentage of non-vine 5-star ratings (51.81) is more than the percentage of vine 5-star ratings (31.92)
 
-Additional analysis
+### Additional analysis
 * We can run other stastical analysis, like the one-sample t-test to see if this difference can be contributed to chance.
-* There are total of 46 US Reviews Datasets ![Here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt "Here"), we could use other datasets to imcrease our sample size
-* We could also run a two-sample t-test using 2 differnt datasets from the list
+* There are a total of 46 US Reviews Datasets on the page https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. We could combine other datasets to the current one to increase our sample size and thus can relatively better results.
+* We could also run a two-sample t-test using 2 differnt datasets from the list.
