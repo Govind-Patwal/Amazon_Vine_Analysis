@@ -3,10 +3,9 @@
 ## Overview
 I am the first data expert at **BigMarket**, a startup that helps businesses optiomize their markting efforts, and I have been hired just in time too. One of BigMarket's clients has requested some pretty hefty analytics. The client **$ellby** is about to release a large catalog of products on a leading retail website. They want to kow how the review of their products compares to the reviews of competitor products sold by their competitors. They are also interested in enrolling in a program that gives out free products to select reviewers but they want to know if it worth the cost. There are thousands of reviews and they are in words not numbers so you"ll have to translate them in order to analyze them. $ellby hired BigMarket because they believe in the power of big data. 
 
-For this project you'll be partnering with Jennifer, an account manager at BigMarket. SellBy, my client, loves to talk about the power of big data, but Jennifer isn't a data expert. So I start off the project by giving her a quick overview of what big data actually is.
-
+For this project I'll be partnering with Jennifer, an account manager at BigMarket. SellBy, my client, loves to talk about the power of big data, but Jennifer isn't a data expert. So I will do the heavy lifting.
 ## Purpose of this Analysis
-As a part of our first assignment, we did a NLP analysis of the review and when the model was tested, it gave a accuracy rate of almost 70%. The client **$ellby** was impressed.
+As a part of our first assignment, Jennifer and I did a NLP analysis of the reviews and when the model was tested, it gave a accuracy rate of almost 70%. The client **$ellby** was impressed.
 
 I have now been tasked with another, larger project: analyzing Amazon reviews written by members of the paid Amazon Vine program. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review.
 
@@ -77,7 +76,9 @@ In this project, I will have to use PySpark to perform the ETL process to extrac
 * Percentage of non-Vine reviews that were 5 stars: 51.81%
 
 ## Summary
-I do not believe that there is any positivity bias for the reviews in the Vine program. On the contrary, the percentage of 5-star ratings by vine reviewers (31.91) is less than the percentage of 5-star ratings by non-vine reviewers (51.81). One of the reasons behind this could be that vine users are those Amazon users, who have been specially selected for their past honest review history. These reviewers tend to post honest (postive as well as negative) reviews.
+I do not believe that there is any positivity bias for the reviews in the Vine program. On the contrary, the percentage of 5-star ratings by vine reviewers (31.91) is less than the percentage of 5-star ratings by non-vine reviewers (51.81). 
+
+One of the reasons behind this could be that vine users are those Amazon users, who have been specially selected by amazon for their past honest review history. These reviewers tend to post honest (postive as well as negative) reviews.
 
 ### Additional analysis
 * We can run other stastical analysis, like the one-sample t-test to see if this difference can be contributed to chance.
