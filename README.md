@@ -81,5 +81,5 @@ I do not believe that there is any positivity bias for the reviews in the Vine p
 
 ### Additional analysis
 * We can run other stastical analysis, like the one-sample t-test to see if this difference can be contributed to chance.
-* There are a total of 46 US Reviews Datasets on the page https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. We could combine other datasets to the current one to increase our sample size and thus can relatively better results.
+* There are a total of 46 US Reviews Datasets on the page https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. We could combine other datasets to the current one to increase our sample size and thus can get relatively better results.
 * We could also run a two-sample t-test using 2 differnt datasets from the list.
