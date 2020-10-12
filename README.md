@@ -81,7 +81,7 @@ I do not believe that there is any positivity bias for the reviews in the Vine p
 One of the reasons behind this could be that vine users are those Amazon users, who have been specially selected by amazon for their past honest review history. These reviewers tend to post honest (postive as well as negative) reviews.
 
 ### Additional analysis
-* In this analysis, we filtered the data according to some conditions - this resulted in decreasing the sample size - we could do an anlysis or Vine and Non-Reviews without any filters.
+* In this analysis, we filtered the data according to some conditions - this resulted in decreasing the sample size - we could do an anlysis or Vine and Non-Vine reviews without any filters.
 * We can run other stastical analysis, like the one-sample t-test to see if this difference can be contributed to chance.
 * There are a total of 46 US Reviews Datasets on the page https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt. We could combine other datasets to the current one to increase our sample size and thus can get relatively better results.
 * We could also run a two-sample t-test using 2 differnt datasets from the list.
